@@ -26,7 +26,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       activationConfiguration = defaultConfig(),
@@ -55,7 +55,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       function= meta::external::function::activator::hostedService::tests::simplefunctionWithGraphFetchAndSerialize__String_1_
@@ -85,7 +85,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       function= meta::external::function::activator::hostedService::tests::simpleRelationalfunctionWithExecutionEnv__TabularDataSet_1_
@@ -110,7 +110,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       function= meta::external::function::activator::hostedService::tests::simpleRelationalfunctionWithExecutionEnvInstance__TabularDataSet_1_
@@ -135,7 +135,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       function= meta::external::function::activator::hostedService::tests::simpleRelationalfunctionWithExecutionEnvInstance_String_1__TabularDataSet_1_
@@ -162,7 +162,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       binding = ^Binding(name='serviceBinding', contentType = 'application/json',modelUnit = meta::pure::model::unit::newModelUnit()->include(PersonX)),
       documentation = 'bla bla',
       autoActivateUpdates = true,
@@ -181,7 +181,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       contentType =  'application/json',
       documentation = 'bla bla',
       autoActivateUpdates = true,
@@ -239,7 +239,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       binding = ^Binding(name='serviceBinding', contentType = 'application/json',modelUnit = meta::pure::model::unit::newModelUnit()->include(PersonX)),
       autoActivateUpdates = true,
@@ -270,7 +270,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       autoActivateUpdates = true,
       function= meta::external::function::activator::hostedService::tests::simpleRelationalfunction_String_1__TabularDataSet_1_
@@ -294,7 +294,7 @@ function meta::external::function::activator::hostedService::tests::simpleServic
   let service =  ^HostedService
    (
       pattern = '/service/{var}',
-      ownership = ^UserList(users = ['debelp', 'harted']),
+      ownership = ^UserList(users = ['user1', 'user2']),
       documentation = 'bla bla',
       binding = ^Binding(name='serviceBinding', contentType = 'application/json',modelUnit = meta::pure::model::unit::newModelUnit()->include(PersonX)),
       autoActivateUpdates = true,
